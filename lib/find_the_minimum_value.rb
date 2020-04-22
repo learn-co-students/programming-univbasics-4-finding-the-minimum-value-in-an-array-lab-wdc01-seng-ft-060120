@@ -1,3 +1,5 @@
 def find_min_value(array)
-  # Add your solution here
+  new_array = array.sort 
+  new_array = new_array.first 
+  return new_array
 end
